@@ -1,5 +1,6 @@
 // Example 48.1 - tronixstuff.com/tutorials > chapter 48 - 30 Jan 2013 
 // MSGEQ7 spectrum analyser shield - basic demonstration - Modified by Larry Steinhardt
+// Change test
 int strobe = 12;    // strobe pins on digital 4
 int res = 13;       // reset pins on digital 5
 int LEDRed=10;       // PWM
@@ -23,6 +24,8 @@ int rnd_cnt=0;      // Cycle counter to re-randomize the RGB increment values
 int CRed;           // Max values for color organ Red
 int CGreen;         // Max values for color organ Green
 int CBlue;          // Max values for color organ Blue
+
+// and here
 
 void setup()
 {
